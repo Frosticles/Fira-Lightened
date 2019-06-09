@@ -24,11 +24,21 @@
 
 @font-face{
     font-family: 'Fira Sans';
+    src: url('woff2/FiraSans-UltraLight-subset.woff2') format('woff2');
+    unicode-range: U+20-7E;
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
     src: url('eot/FiraSans-UltraLight.eot');
     src: url('eot/FiraSans-UltraLight.eot') format('embedded-opentype'),
          url('woff2/FiraSans-UltraLight.woff2') format('woff2'),
          url('woff/FiraSans-UltraLight.woff') format('woff'),
          url('ttf/FiraSans-UltraLight.ttf') format('truetype');
+    unicode-range: U+0-19, U+7F-FFFF;
     font-weight: 200;
     font-style: normal;
     font-display: swap;
