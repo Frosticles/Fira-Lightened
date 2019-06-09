@@ -48,11 +48,21 @@
 
 @font-face{
     font-family: 'Fira Sans';
+    src: url('woff2/FiraSans-Light-subset.woff2') format('woff2');
+    unicode-range: U+20-7E;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
     src: url('eot/FiraSans-Light.eot');
     src: url('eot/FiraSans-Light.eot') format('embedded-opentype'),
          url('woff2/FiraSans-Light.woff2') format('woff2'),
          url('woff/FiraSans-Light.woff') format('woff'),
          url('ttf/FiraSans-Light.ttf') format('truetype');
+    unicode-range: U+0-19, U+7F-FFFF;
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -72,11 +82,21 @@
 
 @font-face{
     font-family: 'Fira Sans';
+    src: url('woff2/FiraSans-Regular-subset.woff2') format('woff2');
+    unicode-range: U+20-7E;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
     src: url('eot/FiraSans-Regular.eot');
     src: url('eot/FiraSans-Regular.eot') format('embedded-opentype'),
          url('woff2/FiraSans-Regular.woff2') format('woff2'),
          url('woff/FiraSans-Regular.woff') format('woff'),
          url('ttf/FiraSans-Regular.ttf') format('truetype');
+    unicode-range: U+0-19, U+7F-FFFF;
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -110,6 +130,7 @@
          url('woff2/FiraSans-Medium.woff2') format('woff2'),
          url('woff/FiraSans-Medium.woff') format('woff'),
          url('ttf/FiraSans-Medium.ttf') format('truetype');
+    unicode-range: U+0-19, U+7F-FFFF;
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -175,6 +196,16 @@
     font-display: swap;
 }
 
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('woff2/FiraSans-ExtraBold-subset.woff2') format('woff2');
+    unicode-range: U+20-7E;
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
 @font-face{
     font-family: 'Fira Sans';
     src: url('eot/FiraSans-ExtraBold.eot');
@@ -182,6 +213,7 @@
          url('woff2/FiraSans-ExtraBold.woff2') format('woff2'),
          url('woff/FiraSans-ExtraBold.woff') format('woff'),
          url('ttf/FiraSans-ExtraBold.ttf') format('truetype');
+    unicode-range: U+0-19, U+7F-FFFF;
     font-weight: 800;
     font-style: normal;
     font-display: swap;
