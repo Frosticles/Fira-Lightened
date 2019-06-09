@@ -96,6 +96,15 @@
 
 @font-face{
     font-family: 'Fira Sans';
+    src: url('woff2/FiraSans-Medium-subset.woff2') format('woff2');
+    unicode-range: U+20-7E;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
     src: url('eot/FiraSans-Medium.eot');
     src: url('eot/FiraSans-Medium.eot') format('embedded-opentype'),
          url('woff2/FiraSans-Medium.woff2') format('woff2'),
